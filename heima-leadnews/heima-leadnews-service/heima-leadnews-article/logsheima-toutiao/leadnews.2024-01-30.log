@@ -1,0 +1,341 @@
+2024-01-30 12:39:48.565 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.heima.article.test.HotArticleServiceImplTest], using SpringBootContextLoader
+2024-01-30 12:39:48.605 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.heima.article.test.HotArticleServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-01-30 12:39:49.128 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-01-30 12:39:49.188 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@14028087, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cecf639, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1caa0244, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ce026d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ce69770, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1750fbeb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b247367, org.springframework.test.context.event.EventPublishingTestExecutionListener@268f106e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e9a5ed8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7e057f43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c284af, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5890e879, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6440112d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@31ea9581]
+2024-01-30 12:39:55.352 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\wxw16\nacos\config
+2024-01-30 12:39:55.794 [main] INFO  c.a.nacos.client.config.impl.Limiter - limitTime:5.0
+2024-01-30 12:39:55.844 [main] INFO  c.a.n.client.config.utils.JvmUtil - isMultiInstance:false
+2024-01-30 12:39:55.864 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[leadnews-article.yml] & group[DEFAULT_GROUP]
+2024-01-30 12:39:55.866 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-leadnews-article.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-leadnews-article,DEFAULT_GROUP'}]
+2024-01-30 12:39:55.882 [main] INFO  c.h.a.test.HotArticleServiceImplTest - No active profile set, falling back to default profiles: default
+2024-01-30 12:39:57.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-30 12:39:57.813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-30 12:39:57.872 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2024-01-30 12:39:58.088 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2024-01-30 12:39:58.397 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ce5ff8a6-e4ef-345b-b7ca-f2f3da0b9c3e
+2024-01-30 12:40:07.443 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-01-30 12:40:07.483 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-01-30 12:40:07.484 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2024-01-30 12:40:07.485 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-01-30 12:40:07.811 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-01-30 12:40:08.212 [main] INFO  c.heima.article.config.XxlJobConfig - >>>>>>>>>>> xxl-job config init.
+2024-01-30 12:40:08.424 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-01-30 12:40:08.425 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-30 12:40:08.445 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-01-30 12:40:08.445 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-30 12:40:08.940 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-30 12:40:09.507 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-30 12:40:09.703 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-01-30 12:40:12.473 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-01-30 12:40:12.699 [main] INFO  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:computeHotArticleJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6f7c4e0[class com.heima.article.job.ComputeHotArticleJob#handle]
+2024-01-30 12:40:12.847 [main] WARN  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2024-01-30 12:40:13.309 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.239.128:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = leadnews-article
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-01-30 12:40:13.481 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-01-30 12:40:13.481 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-01-30 12:40:13.481 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1706589613478
+2024-01-30 12:40:13.517 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Subscribed to topic(s): wm.news.up.or.down.topic
+2024-01-30 12:40:13.523 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2024-01-30 12:40:13.535 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2024-01-30 12:40:13.576 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2024-01-30 12:40:13.673 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-01-30 12:40:13.674 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@leadnews-article\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1706589613672,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":248896629837300} from /172.27.112.1
+2024-01-30 12:40:13.979 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-01-30 12:40:13.996 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveArticleUsingPOST_1
+2024-01-30 12:40:14.004 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadUsingPOST_1
+2024-01-30 12:40:14.008 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadMoreUsingPOST_1
+2024-01-30 12:40:14.012 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadNewUsingPOST_1
+2024-01-30 12:40:14.044 [main] INFO  c.h.a.test.HotArticleServiceImplTest - Started HotArticleServiceImplTest in 24.726 seconds (JVM running for 26.936)
+2024-01-30 12:40:14.063 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article.yml+DEFAULT_GROUP
+2024-01-30 12:40:14.067 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article.yml, group=DEFAULT_GROUP, cnt=1
+2024-01-30 12:40:14.072 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article+DEFAULT_GROUP
+2024-01-30 12:40:14.072 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article, group=DEFAULT_GROUP, cnt=1
+2024-01-30 12:40:14.137 [Thread-20] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2024-01-30 12:40:14.670 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-30 12:40:15.136 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-30 12:40:16.143 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Connection to node -1 (/192.168.239.128:9092) could not be established. Broker may not be available.
+2024-01-30 12:40:16.143 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Bootstrap broker 192.168.239.128:9092 (id: -1 rack: null) disconnected
+2024-01-30 12:40:16.434 [main] INFO  c.n.config.ChainedDynamicProperty - Flipping property: leadnews-wemedia.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-01-30 12:40:16.480 [main] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: leadnews-wemedia instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=leadnews-wemedia,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2024-01-30 12:40:16.495 [main] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2024-01-30 12:40:16.536 [main] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@leadnews-wemedia -> [{"instanceId":"172.27.112.1#51803#DEFAULT#DEFAULT_GROUP@@leadnews-wemedia","ip":"172.27.112.1","port":51803,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@leadnews-wemedia","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]
+2024-01-30 12:40:16.555 [main] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@leadnews-wemedia -> [{"instanceId":"172.27.112.1#51803#DEFAULT#DEFAULT_GROUP@@leadnews-wemedia","ip":"172.27.112.1","port":51803,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@leadnews-wemedia","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]
+2024-01-30 12:40:16.583 [main] INFO  c.n.config.ChainedDynamicProperty - Flipping property: leadnews-wemedia.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-01-30 12:40:16.586 [main] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client leadnews-wemedia initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=leadnews-wemedia,current list of Servers=[172.27.112.1:51803],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.27.112.1:51803;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@55b5ce0f
+2024-01-30 12:40:17.087 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@leadnews-wemedia\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"172.27.112.1#51803#DEFAULT#DEFAULT_GROUP@@leadnews-wemedia\",\"ip\":\"172.27.112.1\",\"port\":51803,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@leadnews-wemedia\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1706589617086,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":248900043766400} from /172.27.112.1
+2024-01-30 12:40:17.507 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: leadnews-wemedia.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-01-30 12:40:17.624 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-01-30 12:40:17.626 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-30 12:40:17.627 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-01-30 12:40:17.626 [Thread-30] INFO  c.n.l.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2024-01-30 12:40:17.629 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-01-30 12:40:17.642 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Unsubscribed all topics or patterns and assigned partitions
+2024-01-30 12:40:17.642 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2024-01-30 12:40:17.661 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - leadnews-article: Consumer stopped
+2024-01-30 12:40:17.664 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-30 12:40:17.671 [SpringContextShutdownHook] INFO  o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2024-01-30 12:40:17.672 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-30 12:40:17.673 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-30 12:40:17.673 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-30 12:40:20.702 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-30 12:40:23.739 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-30 12:40:23.741 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-30 12:40:23.742 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-30 12:40:23.742 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-30 12:40:23.742 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-30 12:40:23.744 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-30 12:40:23.744 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-01-30 12:40:23.745 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-01-30 12:40:23.746 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialService - [null] CredentialService is freed
+2024-01-30 12:40:23.746 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-30 12:40:23.750 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-30 12:40:23.764 [Thread-20] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-30 12:40:23.838 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='leadnews-hot-article-executor', registryValue='http://172.27.112.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-30 12:40:23.838 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destory.
+2024-01-30 12:40:23.840 [SpringContextShutdownHook] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-30 12:40:23.844 [xxl-job, executor TriggerCallbackThread] INFO  c.x.j.c.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor callback thread destory.
+2024-01-30 12:40:23.845 [Thread-19] INFO  c.x.j.c.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2024-01-30 12:40:24.083 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-30 12:40:24.107 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-30 12:41:46.015 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.heima.article.test.HotArticleServiceImplTest], using SpringBootContextLoader
+2024-01-30 12:41:46.028 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.heima.article.test.HotArticleServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-01-30 12:41:46.662 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-01-30 12:41:46.712 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5386659f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14028087, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cecf639, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1caa0244, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ce026d3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7ce69770, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1750fbeb, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b247367, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@268f106e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6e9a5ed8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e057f43, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c284af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5890e879, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6440112d]
+2024-01-30 12:41:51.697 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\wxw16\nacos\config
+2024-01-30 12:41:52.131 [main] INFO  c.a.nacos.client.config.impl.Limiter - limitTime:5.0
+2024-01-30 12:41:52.171 [main] INFO  c.a.n.client.config.utils.JvmUtil - isMultiInstance:false
+2024-01-30 12:41:52.189 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[leadnews-article.yml] & group[DEFAULT_GROUP]
+2024-01-30 12:41:52.192 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-leadnews-article.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-leadnews-article,DEFAULT_GROUP'}]
+2024-01-30 12:41:52.204 [main] INFO  c.h.a.test.HotArticleServiceImplTest - No active profile set, falling back to default profiles: default
+2024-01-30 12:41:53.838 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-30 12:41:53.841 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-30 12:41:53.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2024-01-30 12:41:54.012 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2024-01-30 12:41:54.268 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ce5ff8a6-e4ef-345b-b7ca-f2f3da0b9c3e
+2024-01-30 12:42:01.812 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-01-30 12:42:01.820 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-01-30 12:42:01.821 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2024-01-30 12:42:01.822 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-01-30 12:42:02.045 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-01-30 12:42:02.405 [main] INFO  c.heima.article.config.XxlJobConfig - >>>>>>>>>>> xxl-job config init.
+2024-01-30 12:42:02.651 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-01-30 12:42:02.651 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-30 12:42:02.669 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-01-30 12:42:02.669 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-30 12:42:03.098 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-30 12:42:03.601 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-30 12:42:03.799 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-01-30 12:42:06.479 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-01-30 12:42:06.725 [main] INFO  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:computeHotArticleJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1b5d1d9[class com.heima.article.job.ComputeHotArticleJob#handle]
+2024-01-30 12:42:06.879 [main] WARN  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2024-01-30 12:42:07.319 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.239.128:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = leadnews-article
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-01-30 12:42:07.603 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-01-30 12:42:07.604 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-01-30 12:42:07.604 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1706589727595
+2024-01-30 12:42:07.667 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Subscribed to topic(s): wm.news.up.or.down.topic
+2024-01-30 12:42:07.673 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2024-01-30 12:42:07.683 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@leadnews-article\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1706589727680,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":249010637670500} from /172.27.112.1
+2024-01-30 12:42:07.687 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2024-01-30 12:42:07.742 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2024-01-30 12:42:07.856 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-01-30 12:42:08.283 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-01-30 12:42:08.309 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveArticleUsingPOST_1
+2024-01-30 12:42:08.320 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadUsingPOST_1
+2024-01-30 12:42:08.331 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadMoreUsingPOST_1
+2024-01-30 12:42:08.337 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadNewUsingPOST_1
+2024-01-30 12:42:08.387 [main] INFO  c.h.a.test.HotArticleServiceImplTest - Started HotArticleServiceImplTest in 21.46 seconds (JVM running for 23.732)
+2024-01-30 12:42:08.416 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article.yml+DEFAULT_GROUP
+2024-01-30 12:42:08.420 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article.yml, group=DEFAULT_GROUP, cnt=1
+2024-01-30 12:42:08.431 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article+DEFAULT_GROUP
+2024-01-30 12:42:08.432 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article, group=DEFAULT_GROUP, cnt=1
+2024-01-30 12:42:08.746 [Thread-20] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2024-01-30 12:42:09.315 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-30 12:42:09.980 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-30 12:42:10.575 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Connection to node -1 (/192.168.239.128:9092) could not be established. Broker may not be available.
+2024-01-30 12:42:10.576 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Bootstrap broker 192.168.239.128:9092 (id: -1 rack: null) disconnected
+2024-01-30 12:42:10.844 [main] INFO  c.n.config.ChainedDynamicProperty - Flipping property: leadnews-wemedia.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-01-30 12:42:10.899 [main] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: leadnews-wemedia instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=leadnews-wemedia,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2024-01-30 12:42:10.913 [main] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2024-01-30 12:42:10.944 [main] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@leadnews-wemedia -> [{"instanceId":"172.27.112.1#51803#DEFAULT#DEFAULT_GROUP@@leadnews-wemedia","ip":"172.27.112.1","port":51803,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@leadnews-wemedia","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-30 12:42:10.965 [main] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@leadnews-wemedia -> [{"instanceId":"172.27.112.1#51803#DEFAULT#DEFAULT_GROUP@@leadnews-wemedia","ip":"172.27.112.1","port":51803,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@leadnews-wemedia","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-30 12:42:10.990 [main] INFO  c.n.config.ChainedDynamicProperty - Flipping property: leadnews-wemedia.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-01-30 12:42:10.994 [main] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client leadnews-wemedia initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=leadnews-wemedia,current list of Servers=[172.27.112.1:51803],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.27.112.1:51803;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@62ad5f35
+2024-01-30 12:42:11.435 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@leadnews-wemedia\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"172.27.112.1#51803#DEFAULT#DEFAULT_GROUP@@leadnews-wemedia\",\"ip\":\"172.27.112.1\",\"port\":51803,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@leadnews-wemedia\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1706589731433,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":249014390979800} from /172.27.112.1
+2024-01-30 12:42:11.878 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-30 12:42:11.878 [Thread-29] INFO  c.n.l.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2024-01-30 12:42:11.878 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-01-30 12:42:11.880 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-01-30 12:42:11.881 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-01-30 12:42:11.891 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-leadnews-article-1, groupId=leadnews-article] Unsubscribed all topics or patterns and assigned partitions
+2024-01-30 12:42:11.891 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2024-01-30 12:42:11.906 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - leadnews-article: Consumer stopped
+2024-01-30 12:42:11.908 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-30 12:42:11.915 [SpringContextShutdownHook] INFO  o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2024-01-30 12:42:11.917 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-30 12:42:11.917 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-30 12:42:11.917 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-30 12:42:14.332 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-30 12:42:17.354 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-30 12:42:17.355 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-30 12:42:17.356 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-30 12:42:17.358 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-30 12:42:17.358 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-30 12:42:17.360 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-30 12:42:17.361 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-01-30 12:42:17.362 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-01-30 12:42:17.364 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialService - [null] CredentialService is freed
+2024-01-30 12:42:17.364 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-30 12:42:17.366 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-30 12:42:17.382 [Thread-20] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-30 12:42:17.437 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='leadnews-hot-article-executor', registryValue='http://172.27.112.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-30 12:42:17.437 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destory.
+2024-01-30 12:42:17.437 [SpringContextShutdownHook] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-30 12:42:17.438 [xxl-job, executor TriggerCallbackThread] INFO  c.x.j.c.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor callback thread destory.
+2024-01-30 12:42:17.438 [Thread-19] INFO  c.x.j.c.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2024-01-30 12:42:17.609 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-30 12:42:17.630 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
